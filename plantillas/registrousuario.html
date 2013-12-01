@@ -1,0 +1,28 @@
+
+<form class="form-signin"  action="usuario.php" method="POST" >
+          
+        <ul class="nav nav-pills"><!--tabs-->
+            <li class="active"><a href="facturar.php">Facturación</a></li>
+           
+            <li class="active"><a href="cliente.php">Cliente</a></li>
+            <li class="active"><a href="">Reporte</a></li>
+        </ul>
+
+        <h2 class="form-signin-heading">Datos Personales</h2>
+        
+        <input name="id" type="text" class="input-block-level" placeholder="identificacion">
+        <input name="nombre" type="text" class="input-block-level" placeholder="Nombres">
+        <input name="pass" type="text" class="input-block-level" placeholder="contraseña">
+        <input name="repass" type="password" class="input-block-level" placeholder="Confirmar Contraseña">
+        
+
+        <select name="seleccion">
+            
+            {opciones}            
+            
+        </select>
+      
+            <button class="btn btn-large btn-primary" type="submit">Registrar</button>
+    </form>
+
+    

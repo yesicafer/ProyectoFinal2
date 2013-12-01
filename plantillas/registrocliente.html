@@ -1,0 +1,21 @@
+
+
+    <form class="form-signin" action="cliente.php" method="POST" id="formcliente">
+          
+        <ul class="nav nav-pills"><!--tabs-->
+            <li class="active"><a href="facturar.php">Facturación</a></li>
+            <li class="active"><a href="usuario.php">Usuarios</a></li>
+            <li class="active"><a href="">Reporte</a></li>
+        </ul>
+
+        <h4 class="form-signin-heading">Datos Personales</h4>
+        
+        <input id="nombres" type="text" class="input-block-level" placeholder="Nombres" required />
+        <input id="apellidos" type="text" class="input-block-level" placeholder="Apellidos" required />
+        <input id="identificacion" type="text" class="input-block-level" placeholder="Identificacion" required />
+        <input id="telefono" type="text" class="input-block-level" placeholder="Telefono">
+        <input id="localidad" type="text" class="input-block-level" placeholder="Localidad">
+        <button class="btn-primary" type="submit" onclick="validar()">Registrar</button>
+    </form>
+
+    
